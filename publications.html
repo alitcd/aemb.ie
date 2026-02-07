@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Applied Environmental Microbiology and Biotechnology</title>
+  <meta name="description" content="Publications from the Applied Environmental Microbiology and Biotechnology group.">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-5.3.8.css" rel="stylesheet">
+
+  <style>
+    .page-hero{
+      background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(255,255,255,1) 100%);
+      border-radius: 1rem;
+    }
+    .small-muted{ color:#6c757d; font-size:.95rem; }
+    .section-title{ letter-spacing:.02em; }
+
+    /* Publication card layout (similar to your screenshot) */
+    .pub-card{ border-radius: 1rem; }
+    .pub-thumb{
+      display: block;
+      max-width: 100%;
+      width: 100%;
+      height: auto; /* keep natural aspect ratio */
+      border-radius: .75rem;
+      border: 1px solid #e9ecef;
+      background: #f8f9fa;
+    }
+    .pub-title{
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.25;
+      margin-bottom: .5rem;
+    }
+    .pub-kv{
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem .75rem;
+      align-items: center;
+      font-size: .95rem;
+      color: #6c757d;
+      margin-bottom: .5rem;
+    }
+    .pub-kv a{ text-decoration: none; }
+    .pub-kv a:hover{ text-decoration: underline; }
+    .pub-divider{ border-top: 1px solid #eef0f2; margin: .75rem 0; }
+
+    .badge-soft{
+      background: rgba(13,110,253,.10);
+      color:#0d6efd;
+      border:1px solid rgba(13,110,253,.15);
+    }
+    .badge-soft-green{
+      background: rgba(25,135,84,.10);
+      color:#198754;
+      border:1px solid rgba(25,135,84,.15);
+    }
+    .badge-soft-dark{
+      background: rgba(33,37,41,.08);
+      color:#212529;
+      border:1px solid rgba(33,37,41,.10);
+    }
+
+    /* Year chips row */
+    .year-chips a{
+      text-decoration: none;
+      margin-right: .4rem;
+      margin-bottom: .4rem;
+      display: inline-block;
+    }
+
+    /* DOI placeholder styling */
+    .doi-placeholder code{
+      background: #f1f3f5;
+      border: 1px solid #e9ecef;
+      padding: .1rem .35rem;
+      border-radius: .35rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">AEMB</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="infrastructure.html">Infrastructure</a></li>
+          <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="py-4">
+    <div class="container">
+      <div class="p-4 p-lg-5 page-hero border">
+        <h1 class="h2 fw-bold mb-2">Publications</h1>
+        <p class="lead mb-0">Peer-reviewed articles, reviews, book chapters, and patents.</p>
+
+        <div class="alert alert-light border mt-3 mb-0">
+          For a complete list of publications, please visit Professor Muhammad Ali’s
+          <a href="https://scholar.google.com/citations?user=YqIO6Q4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+            Google Scholar page
+          </a>.
+        </div>
+
+        <div class="mt-3 year-chips">
+          <span class="small-muted me-2">Jump to:</span>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2025">2025</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2024">2024</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2023">2023</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2022">2022</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2021">2021</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2020">2020</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2019">2019</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2018">2018</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2017">2017</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2016">2016</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2015">2015</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2014">2014</a>
+          <a class="badge rounded-pill badge-soft-dark" href="#y2011">2011</a>
+        </div>
+
+        <div class="small-muted mt-2">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PUBLICATIONS -->
+  <section class="py-4">
+    <div class="container">
+
+      <!-- ===== 2025 ===== -->
+      <h2 class="h4 section-title mb-3" id="y2025">2025</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2">
+              <img class="pub-thumb" src="images/pubs/2025_ESE_AGS.jpg" alt="Graphical abstract">
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Genome-Resolved Metatranscriptomics Unveils Distinct Microbial Functionalities Across Aggregate Sizes in Aerobic Granular Sludge</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2025</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.ese.2025.100560</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Mohamed, AYA; Gill, Laurence; Monleon, Alejandro; Pronk, Mario; van Loosdrecht, Mark; Saikaly, Pascal E; Ali, Muhammad</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Science and Ecotechnology · <strong>Pages:</strong> 100560 · <strong>Publisher:</strong> Elsevier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2">
+              <img class="pub-thumb" src="images/pubs/2025_EST_AGS.jpeg" alt="Graphical abstract">
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Genome-Resolved Metatranscriptomics Provide Insights on Immigration Influence in Structuring Microbial Community Assembly of a Full-Scale Aerobic Granular Sludge Plant</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2025</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1021/acs.est.4c14471</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Mohamed, A. Y. A.; Gill, Laurence; Monleon, Alejandro; Pronk, Mario; van Loosdrecht, Mark; Saikaly, Pascal E.; Muhammad Ali</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Science &amp; Technology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2">
+              <img class="pub-thumb" src="images/pubs/2025_WST_anammox.png" alt="Graphical abstract">
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Cultivation of anammox bacteria from a tropical lake in Indonesia using a novel filter bioreactor to enhance nitrogen removal efficiency</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2025</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.2166/wst.2025.050</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Zulkarnaini; Komala, Puti Sri; Putra, Randi Permana; Ali, Muhammad; Matsuura, Norihisa; Koike, Kazuyoshi; Wang, Jinsong; Mawarda, Panji Cahya; Yamamoto-Ikemoto, Ryoko</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Science &amp; Technology · <strong>Volume:</strong> 91 · <strong>Issue:</strong> 7 · <strong>Pages:</strong> 811–826 · <strong>Publisher:</strong> IWA Publishing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2">
+              <img class="pub-thumb" src="images/pubs/2025_LCA.jpg" alt="Graphical abstract">
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">The circular value of polyhydroxyalkanoate (PHA) bioplastic production from sludge at a large-scale wastewater treatment plant</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2025</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.biteb.2025.102272</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Cormac O'Maolduin; Alexander Compeer; Jappe De Best; Laurence Gill; Muhammad Ali; John Gallagher</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Bioresource Technology Reports</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2024 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2024">2024</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_ESE_PAOs.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Demystifying polyphosphate-accumulating organisms relevant to wastewater treatment: A review of their phylogeny, metabolism, and detection</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Review</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.ese.2024.100387</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Lucia Ruiz-Haddad; Muhammad Ali; Mario Pronk; Mark C.M. van Loosdrecht; Pascal E. Saikaly</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Science and Ecotechnology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_AdvEne_CenvsDecen.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Striking a Balance: Decentralized and Centralized Wastewater Treatment Systems for Advancing Sustainable Development Goal 6</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1002/aesr.202400097</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Saadatinavaz, Fateme; Alomari, Mohammed A.; Ali, Muhammad; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Adv. Energy Sustainability Res · <strong>Pages:</strong> 2400097</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_flux.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Filtration Performance of Biofilm Membrane Bioreactor: Fouling Control by Threshold Flux Operation</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1002/aesr.202400097</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Zhang, Wenxiang; Liang, Wenzhong; Jin, Jiarou; Meng, Shujuan; He, Ziqiang; Ali, Muhammad; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Chemosphere · <strong>Pages:</strong> 142458</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_frontiers_EPS.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Alginate-like exopolysaccharides extracted from different waste sludges exhibit varying physicochemical and material properties</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2024.1493782</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Rehman, Zahid Ur; Ghaani, Masoud; Mohamed, Ahmed YA; Gallagher, John; Saikaly, Pascal E; Ali, Muhammad</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology · <strong>Volume:</strong> 15 · <strong>Pages:</strong> 1493782 · <strong>Publisher:</strong> Frontiers Media SA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_WR_core.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Characterization of the core microbial community across different aggregate sizes in full-scale aerobic granular sludge plants and their relevance to wastewater treatment performance</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2024.1493782</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ruiz-Haddad, Lucia; Shaw, Dario Rangel; Ali, Muhammad; Pronk, Mario; van Loosdrecht, Mark CM; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research · <strong>Pages:</strong> 123036 · <strong>Publisher:</strong> Elsevier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2024_bookchapter.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Genomics Tools to Study Membrane-Based Systems</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Book chapter</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2024</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.2166/9781789062977_0315</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Haddad, Lucia Ruiz; Haroon, Mohamed Fauzi; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Book:</strong> Experimental Methods for Membrane Applications in Desalination and Water Treatment · <strong>Publisher:</strong> IWA Publishing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2023 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2023">2023</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2023_EST_cover.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Performance Evaluation of a Pilot-Scale Aerobic Granular Sludge Integrated with Gravity-Driven Membrane System Treating Domestic Wastewater</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2023</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1021/acsestwater.3c00178</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Singh, Yogesh; Fortunato, Luca; Rehman, Zahid Ur; Manjunath, Sarvajith; Vrouwenvelder, Johannes; Pronk, Mario; van Loosdrecht; andPascal Saikaly, Mark C. M.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> ACS EST Water · <strong>Publisher:</strong> ACS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2023_Abdullah.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Combination of advanced coagulation Fe(VI) and UF membrane to effectively remove organic compounds and mitigate biofouling during harmful algal bloom</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2023</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.desal.2023.116882</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Abdullah H. Alshahri; M. Obaidb; Abdullah H.A. Dehwah; Thomas M. Missimer; Muhammad Ali; Noreddine Ghaffour</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Desalination</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/placeholder.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Successful characterisation of on-site wastewater treatment system biomats using the Microbes of Activated Sludge and Anaerobic Digesters (MiDAS) taxonomic database</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Conference abstract</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2023</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.5194/egusphere-egu23-16018</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Criado Monleon, Alejandro Javier; Knappe, Jan; Somlai, Celia; Ospina Betancourth, Carolina; Ali, Muhammad; Curtis, Thomas P; Gill, Laurence William</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Conference:</strong> EGU General Assembly Conference Abstracts · <strong>Pages:</strong> EGU–16018</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2023_patent.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Fluidized chain elongation membrane bioreactor for production and recovery of carboxylates from organic biomass</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Patent</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2023</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://patentimages.storage.googleapis.com/f9/20/a2/09ce3002aab67a/US20230332083A1.pdf</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Saikaly, Pascal; Xu, Jiajie; Bin, BIAN; Ali, Muhammad</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Note:</strong> US Patent App. 18/044,522</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2022 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2022">2022</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2022_Alex.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Spatial variation of microbial community structure of on-site soil treatment units in a temperate climate and the role of effluent pretreatment in the development of the biomat community</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2022</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2022.915856</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Criado Monleon, Alejandro Javier; Knappe, Jan; Somlai, Celia; Betancourth, Carolina Ospina; Ali, Muhammad; Curtis, Thomas; Gill, Laurence</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology · <strong>Volume:</strong> 13 · <strong>Pages:</strong> 915856 · <strong>Publisher:</strong> Frontiers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2022_circular.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Adopting the circular model: opportunities and challenges of transforming wastewater treatment plants into resource recovery facilities in Saudi Arabia</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2022</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.2166/wrd.2022.038</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Hong, Pei-Ying; Mishra, Himanshu; Vrouwenvelder, Johannes; Saikaly, Pascal</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Journal of Water Reuse and Desalination</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2022_AGS_patent.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Waste water treatment system using aerobic granular sludge gravity-driven membrane system</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Patent</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2022</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://patents.google.com/patent/US12378142B2/en</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Katuri, Krishna Prasad; Saikaly, Pascal Elias</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Note:</strong> US Patent App. 17/295,625</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2021 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2021">2021</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2021_Manal.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Enrichment of salt-tolerant CO2--fixing communities in microbial electrosynthesis systems using porous ceramic hollow tube wrapped with carbon cloth as cathode and for CO2 supply</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2021</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.scitotenv.2020.142668</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Alqahtani, Manal F; Bajracharya, Suman; Katuri, Krishna P; Ali, Muhammad; Xu, Jiajie; Alarawi, Mohammed S; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Science of the Total Environment · <strong>Volume:</strong> 766 · <strong>Pages:</strong> 142668 · <strong>Publisher:</strong> Elsevier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2021_competition.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Competition of two highly specialized and efficient acetoclastic electroactive bacteria for acetate in biofilm anode of microbial electrolysis cell</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2021</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1038/s41522-021-00218-3</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Sapireddy, Veerraghavulu; Katuri, Krishna P; Ali, Muhammad; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> npj Biofilms and Microbiomes volume · <strong>Volume:</strong> 7 · <strong>Issue:</strong> 47 · <strong>Pages:</strong> 2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2021_gerald.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Relative Importance of Stochastic Assembly Process of Membrane Biofilm Increased as Biofilm Aged</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2021</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2021.708531</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Matar, Gerald K.; Ali, Muhammad; Bagchi, Samik; Nunes, Suzana; Liu, Wen-Tso; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology · <strong>Volume:</strong> 12 · <strong>Pages:</strong> 708531</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2020 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2020">2020</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2022_WR_anammox.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Application of an enrichment culture of the marine anammox bacterium “Ca. Scalindua sp. AMX11” for nitrogen removal under moderate salinity and in the presence of organic carbon</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2020</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2019.115345</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Shaw, Dario Rangel; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research · <strong>Volume:</strong> 170 · <strong>Pages:</strong> 115345 · <strong>Publisher:</strong> Pergamon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2020_NatCom_EET.jpeg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Extracellular electron transfer-dependent anaerobic oxidation of ammonium by anammox bacteria</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2020</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1038/s41467-020-16016-y</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Shaw, Dario R; Ali, Muhammad; Katuri, Krishna P; Gralnick, Jeffrey A; Reimann, Joachim; Mesman, Rob; van Niftrik, Laura; Jetten, Mike S M; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Nature Communications · <strong>Volume:</strong> 11 · <strong>Pages:</strong> 2058</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2020_immobilisation_ahmed.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Gel immobilization: A strategy to improve the performance of anaerobic ammonium oxidation (anammox) bacteria for nitrogen-rich wastewater treatment</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2020</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.biortech.2020.123642</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ahmad, Hafiz Adeel; Ni, Shou-qing; Ahmad, Shakeel; Zhang, Jian; Ali, Muhammad; Hao, Huu; Guo, Wenshan; Tan, Zuwan; Wang, Qi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Bioresource Technology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2020_frontier_comparative.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Comparative genome-centric analysis of freshwater and marine ANAMMOX cultures suggests functional redundancy in nitrogen removal processes</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2020</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2020.01637</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Shaw, Dario Rangel; Albertsen, Mads; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology · <strong>Volume:</strong> 11 · <strong>Pages:</strong> 556715 · <strong>Publisher:</strong> Frontiers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2020_WR_krishna.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Electroactive biofilms on surface functionalized anodes: the anode respiring behavior of a novel electroactive bacterium, Desulfuromonas acetexigens</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2020</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2020.116284</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Katuri, Krishna P; Kamireddy, Sirisha; Kavanagh, Paul; Ali, Muhammad; Conghaile, Peter Ó; Kumar, Amit; Saikaly, Pascal E; Leach, Donal</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2019 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2019">2019</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2019_MFC_reviewarticle.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">The role of microbial electrolysis cell in urban wastewater treatment: integration options, challenges and prospects</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Review</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2019</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.copbio.2019.03.007</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Katuri, Krishna; Ali, Muhammad; Saikaly, Pascal</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Current Opinion in Biotechnology · <strong>Volume:</strong> 57 · <strong>Pages:</strong> 101–110</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/placeholder.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Draft Genome Sequence of a novel Marine Anaerobic Ammonium-Oxidizing Bacterium “Candidatus Scalindua sp.”</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2019</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1128/mra.00297-19</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Shaw, Dario; Saikaly, Pascal</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Microbiology Resource Announcements · <strong>Volume:</strong> 8 · <strong>Issue:</strong> 999 · <strong>Pages:</strong> e00297–19</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2019_Alaa_frontiers.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Evidence of spatial homogeneity in an electromethanogenic cathodic microbial community</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2019</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2019.01747</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ragab, Ala'a; Katuri, Krishna; Ali, Muhammad; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2019_frontier_manal.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Enrichment of Marinobacter sp. and Halophilic Homoacetogens at the Biocathode of Microbial Electrosynthesis System Inoculated with Red Sea Brine Pool</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2019</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.3389/fmicb.2019.02563</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Alqahtani, Manal; Bajracharya, Suman; Katuri, Krishna Prasad; Ali, Muhammad; Ragab, Alaa; Michoud, Grégoire; Daffonchio, Daniele; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Frontiers in Microbiology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2019_EST_cover.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Importance of species sorting and immigration on the bacterial assembly of different-sized aggregates in a full-scale aerobic granular sludge plant</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2019</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1021/acs.est.8b07303</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Wang, Zhongwei; Salam, Khaled W; Hari, Ananda Rao; Pronk, Mario; van Loosdrecht, Mark CM; Saikaly, Pascal E</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Science &amp; Technology · <strong>Volume:</strong> 53 · <strong>Issue:</strong> 14 · <strong>Pages:</strong> 8291–8301 · <strong>Publisher:</strong> ACS Publications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2018 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2018">2018</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2028_WR_aggregation.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Aggregation ability of three phylogenetically distant anammox bacterial species</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2018</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2018.06.007</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Shaw, Dario Rangel; Zhang, Lei; Haroon, Mohamed Fauzi; Narita, Yuko; Emwas, Abdul-Hamid; Saikaly, Pascal E.; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2018_reviewArticle_Henry.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Insights into the roles of anammox bacteria in post-treatment of anaerobically-treated sewage</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Review</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2018</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1080/10643389.2018.1474679</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Qian Wang; Giin-Yu Amy Tan; Mohammad Azari; Xiaowu Huang; Martin Denecke; Yujie Men; Jin-Young Jung; Satoshi Okabe; Muhammad Ali; Yu-Tzu Huang; Zhuoying Wu; Wai-hung Lo; Ji-Dong Gu; Jih-Gaw Lin; Po-Heng Lee</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Critical Reviews in Environmental Science and Technology · <strong>Volume:</strong> 48 · <strong>Issue:</strong> 6 · <strong>Pages:</strong> 655–684</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2018_WR_Zahid.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Genome-resolved metagenomic analysis reveals roles of microbial community members in full-scale seawater reverse osmosis plant</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2018</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2018.11.012</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Rehman, Zahid Ur; Ali, Muhammad; Iftikhar, Hina; Leiknes, TOrove</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2018_Garcia.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">High denitrification and anaerobic ammonium oxidation contributes to net nitrogen loss in a seagrass ecosystem in the central Red Sea</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2018</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.5194/bg-15-7333-2018</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Garcias-Bonet, N; Fusi, M; Ali, M; Shaw, D R; Saikaly, P E; Daffonchio, D; Duarte, C M</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Biogeosciences · <strong>Volume:</strong> 15 · <strong>Pages:</strong> 7333–7346</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2017 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2017">2017</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2017_WR_LeiZhang.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Maximum specific growth rate of anammox bacteria revisited</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2017</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2017.03.027</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Zhang, Lei; Narita, Yuko; Gao, Lin; Ali, Muhammad; Oshiki, Mamoru; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2017_Ahmed.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Effects of porous carrier size on biofilm development, microbial distribution and nitrogen removal in microaerobic bioreactors</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2017</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.biortech.2017.03.076</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ahmad, Muhammad; Liu, Sitong; Mahmood, Nasir; Mahmood, Asif; Ali, Muhammad; Zheng, Maosheng; Ni, Jinren</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Bioresource Technology · <strong>Volume:</strong> 234 · <strong>Pages:</strong> 360–369</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2017_Ahmed2.jpeg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Synergic Adsorption-Biodegradation by Advance Carrier for Enhanced Removal of High-strength Nitrogen and Refractory Organics</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2017</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1021/acsami.7b01251</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ahmad, Muhammad; Liu, Sitong; Mahmood, Nasir; Mahmood, Asif; Ali, Muhammad; Zheng, Maosheng; Ni, Jinren</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> ACS Applied Materials &amp; Interfaces</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2017_Narita.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Enrichment and physiological characterization of an anaerobic ammonium-oxidizing bacterium 'Candidatus Brocadia sapporoensis'</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2017</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.syapm.2017.07.004</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Narita, Y.; Zhang, L.; Kimura, Z.; Ali, M.; Fujii, T.; Okabe, S.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Systematic and Applied Microbiology</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2017_WR_LeiZhang2.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Microbial competition among anammox bacteria in nitrite-limited bioreactors</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2017</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2017.08.052</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Zhang, Lei; Narita, Yuko; Gao, Lin; Ali, Muhammad; Oshiki, Mamoru; Ishii, Satoshi; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2016 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2016">2016</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2016_Oshiki.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Hydroxylamine-dependent Anaerobic Ammonium Oxidation (Anammox) by “Candidatus Brocadia sinica”</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2016</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1111/1462-2920.13355</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Oshiki, Mamoru; Ali, Muhammad; Ali, Shinyako-Hata, Kaori; Satoh, Hisashi; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Microbiology · <strong>Volume:</strong> 18 · <strong>Issue:</strong> 9 · <strong>Pages:</strong> 3133–3143</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2016_WR_N2O.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Source identification of nitrous oxide emission pathways from a single-stage nitritation-anammox granular reactor</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2016</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2016.06.034</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Rathnayake, Rathnayake M; Zhang, Lei; Ishii, Satoshi; Kindaichi, Tomonori; Satoh, Hisashi; Toyoda, Sakae; Yoshida, Naohiro; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/placeholder.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Draft Genome Sequence of Anaerobic Ammonium-Oxidizing Bacterium “Candidatus Brocadia sp. 40”</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2016</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1128/genomea.01377-16</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Haroon, Mohamed Fauzi; Narita, Yuko; Zhang, Lei; Shaw, Dario Rangel; Okabe, Satoshi; Saikaly, Pascal E.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Genome Announcement · <strong>Volume:</strong> 4 · <strong>Issue:</strong> 6 · <strong>Pages:</strong> e01377–16</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2015 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2015">2015</h2>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2015_EnMicro.png" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Physiological characterization of anaerobic ammonium oxidizing bacterium ‘Candidatus Jettenia caeni’</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2015</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1111/1462-2920.12674</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Oshiki, Mamoru; Awata, Takanori; Isobe, Kazuo; Kimura, Zenichiro; Yoshikawa, Hiroaki; Hira, Daisuke; Kindaichi, Tomonori; Satoh, Hisashi; Fujii, Takao; et al.</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Environmental Microbiology · <strong>Volume:</strong> 17 · <strong>Issue:</strong> 6 · <strong>Pages:</strong> 2172–2189 · <strong>Publisher:</strong> Wiley</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-3">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2015_WR_Immobilisation.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Rapid and successful start-up of anammox process by immobilizing the minimal quantity of biomass in PVA-SA gel beads</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2015</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2015.04.024</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Oshiki, Mamoru; Rathnayake, Lashitha; Ishii, Satoshi; Satoh, Hisashi; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research · <strong>Volume:</strong> 79 · <strong>Pages:</strong> 147–157 · <strong>Publisher:</strong> Elsevier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2015_Chem.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Anammox-based technologies for nitrogen removal: Advances in process start-up and remaining issues</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft-dark">Review</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2015</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.chemosphere.2015.06.094</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Chemosphere · <strong>Volume:</strong> 141 · <strong>Pages:</strong> 144–153</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2014 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2014">2014</h2>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2014_WR.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Simple, rapid and effective preservation and reactivation of anaerobic ammonium oxidizing bacterium “Candidatus Brocadia sinica”</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2014</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.watres.2014.03.036</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Oshiki, Mamoru; Okabe, Satoshi</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Water Research · <strong>Volume:</strong> 57 · <strong>Pages:</strong> 215–222 · <strong>Publisher:</strong> Pergamon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== 2011 ===== -->
+      <h2 class="h4 section-title mt-4 mb-3" id="y2011">2011</h2>
+
+      <div class="card pub-card shadow-sm mb-4">
+        <div class="card-body p-3 p-lg-4">
+          <div class="row g-3 align-items-start">
+            <div class="col-12 col-md-3 col-lg-2"><img class="pub-thumb" src="images/pubs/2011_landscape.jpg" alt="Graphical abstract"></div>
+            <div class="col-12 col-md-9 col-lg-10">
+              <div class="pub-title">Simulation of the impacts of land-use change on surface runoff of Lai Nullah Basin in Islamabad, Pakistan</div>
+              <div class="pub-kv">
+                <span class="badge rounded-pill badge-soft">Journal article</span>
+                <span class="badge rounded-pill badge-soft-green">Year: 2011</span>
+              </div>
+              <div class="small-muted doi-placeholder mb-2"><strong>DOI:</strong> <code>https://doi.org/10.1016/j.landurbplan.2011.05.006</code></div>
+              <div><strong>Authors:</strong></div>
+              <div class="small-muted">Ali, Muhammad; Khan, Sher Jamal; Aslam, Irfan; Khan, Zahiruddin</div>
+              <div class="pub-divider"></div>
+              <div class="small-muted"><strong>Journal:</strong> Landscape and Urban Planning · <strong>Volume:</strong> 102 · <strong>Issue:</strong> 4 · <strong>Pages:</strong> 271–279 · <strong>Publisher:</strong> Elsevier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-white mt-4">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-8">
+          <div class="fw-semibold">Applied Environmental Microbiology and Biotechnology</div>
+          <div class="small text-white-50">Trinity College Dublin · Dublin, Ireland</div>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <div class="small text-white-50">© 2026 AEMB. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="js/popper-2.11.8.min.js"></script>
+  <script src="js/bootstrap-5.3.8.js"></script>
+  <script>
+    // Make each publication card clickable using its DOI link
+    (function() {
+      function getDOIFromCard(card) {
+        var codeEl = card.querySelector('.doi-placeholder code');
+        if (!codeEl) return null;
+        var text = codeEl.textContent.trim();
+        // Basic validation to ensure it's a URL starting with http(s)
+        if (/^https?:\/\//i.test(text)) {
+          return text;
+        }
+        return null;
+      }
+
+      var cards = document.querySelectorAll('.card.pub-card');
+      cards.forEach(function(card) {
+        var doi = getDOIFromCard(card);
+        if (!doi) return; // skip if no DOI found
+
+        // Add visual cue
+        card.style.cursor = 'pointer';
+
+        // Avoid interfering with inner links/buttons: only trigger when the card itself (or non-link children) are clicked
+        card.addEventListener('click', function(e) {
+          // If the user clicked an <a> or a descendant of <a>, let the default behavior happen
+          var target = e.target;
+          while (target && target !== card) {
+            if (target.tagName && target.tagName.toLowerCase() === 'a') {
+              return; // don't hijack anchor clicks
+            }
+            target = target.parentElement;
+          }
+          window.open(doi, '_blank', 'noopener');
+        });
+
+        // Optional: subtle hover effect to reinforce clickability
+        card.addEventListener('mouseenter', function() {
+          card.classList.add('shadow');
+        });
+        card.addEventListener('mouseleave', function() {
+          card.classList.remove('shadow');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

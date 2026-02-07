@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Infrastructure | Applied Environmental Microbiology and Biotechnology</title>
+  <meta name="description" content="Infrastructure and capabilities of the Applied Environmental Microbiology and Biotechnology group: reactors, microbial ecology tools, analytical chemistry, and data analysis workflows.">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-5.3.8.css" rel="stylesheet">
+
+  <!-- Optional: small custom tweaks (safe) -->
+  <style>
+    .page-hero{
+      background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(255,255,255,1) 100%);
+      border-radius: 1rem;
+    }
+    .small-muted{ color:#6c757d; font-size:.95rem; }
+    .section-title{ letter-spacing:.02em; }
+    .card-hover:hover{ transform: translateY(-2px); transition: transform .15s ease-in-out; }
+    .cap-icon{
+      width: 44px; height: 44px;
+      display: inline-flex; align-items: center; justify-content: center;
+      border-radius: 12px;
+      background: rgba(13,110,253,.08);
+      border: 1px solid rgba(13,110,253,.12);
+      font-weight: 700;
+      color: #0d6efd;
+      flex: 0 0 auto;
+    }
+    .note-box{
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: .75rem;
+      padding: 1rem;
+    }
+    .cap-image{ width: 100%; height: 180px; object-fit: cover; border-radius: .5rem; }
+    .card-split{ display: grid; grid-template-columns: 260px 1fr; gap: 1.25rem; align-items: center; }
+
+    @media (max-width: 768px){
+      .card-split{ grid-template-columns: 1fr; }
+      .cap-image{ height: 200px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">AEMB</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
+          <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="infrastructure.html">Infrastructure</a></li>
+          <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <header class="py-4">
+    <div class="container">
+      <div class="p-4 p-lg-5 page-hero border">
+        <div class="row align-items-center g-3">
+          <div class="col-lg-8">
+            <h1 class="h2 fw-bold mb-2">Infrastructure</h1>
+            <p class="lead mb-0">
+              Our infrastructure supports experimental and analytical work across microbial ecology and environmental biotechnology,
+              from bioreactor studies to molecular analysis and data-driven interpretation.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-outline-dark" href="contact.html">Access / collaboration enquiries</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CAPABILITIES OVERVIEW -->
+  <section class="py-4">
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-between mb-3">
+        <h2 class="h4 section-title mb-0">Core Capabilities</h2>
+      </div>
+
+      <div class="row g-3">
+
+        <!-- Bioreactor Systems -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">R</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/bioreactor.jpg" alt="Bioreactor Systems" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Bioreactor Systems</h3>
+                      <p class="small-muted mb-2">Lab-scale reactors for enrichment, kinetics, and performance testing.</p>
+                      <ul class="mb-0 small">
+                        <li>Continuous flow &amp; batch systems</li>
+                        <li>Biofilm / granular configurations</li>
+                        <li>Gas control and monitoring</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Molecular Microbiology -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">M</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/molecular.jpg" alt="Molecular Microbiology" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Molecular Microbiology</h3>
+                      <p class="small-muted mb-2">Quantification and characterization of microbial communities.</p>
+                      <ul class="mb-0 small">
+                        <li>DNA/RNA extraction workflows</li>
+                        <li>16S rRNA sequencing / metagenomics</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imaging & Microscopy -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">I</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/microscopy.jpg" alt="Imaging and Microscopy" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Imaging &amp; Microscopy</h3>
+                      <p class="small-muted mb-2">Visualization of spatial structure and microbial localization.</p>
+                      <ul class="mb-0 small">
+                        <li>FISH / confocal imaging</li>
+                        <li>Image analysis workflows</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Analytical Chemistry -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">A</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/analytical.jpg" alt="Analytical Chemistry" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Analytical Chemistry</h3>
+                      <p class="small-muted mb-2">Core water/wastewater analyses and process monitoring.</p>
+                      <ul class="mb-0 small">
+                        <li>N species (NH4+, NO2−, NO3−)</li>
+                        <li>COD, VFA, alkalinity, pH</li>
+                        <li>Online sensors (DO, ORP, etc.)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data & Bioinformatics -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">D</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/bioinformatics.jpg" alt="Data and Bioinformatics" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Data &amp; Bioinformatics</h3>
+                      <p class="small-muted mb-2">Reproducible workflows for microbial ecology and systems data.</p>
+                      <ul class="mb-0 small">
+                        <li>Community statistics &amp; multivariate analysis</li>
+                        <li>Genome-resolved analyses</li>
+                        <li>Genome-resolved metatranscriptomics</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gas Chromatograph -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">X</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/gc.jpg" alt="Gas Chromatograph" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Gas Chromatograph</h3>
+                      <p class="small-muted mb-2">GC-2030 (Shimadzu)</p>
+                      <ul class="mb-0 small">
+                        <li>Precise quantification of greenhouse gases (GHGs)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nanobubble Generator -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">X</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/nanobubble.jpg" alt="Nanobubble Generator" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Nanobubble Generator</h3>
+                      <p class="small-muted mb-2">Gas transfer enhancement</p>
+                      <ul class="mb-0 small">
+                        <li>Supports advanced aeration and process studies</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Microsensor -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">X</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/microsensor.jpg" alt="Microsensor" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Microsensor</h3>
+                      <p class="small-muted mb-2">High-resolution profiling</p>
+                      <ul class="mb-0 small">
+                        <li>Micro-scale measurement in biofilms and reactors</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bambu Lab X1 Carbon 3D Printer -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">X</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/3dprinter.jpg" alt="Bambu Lab X1 Carbon 3D Printer" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Bambu Lab X1 Carbon 3D Printer</h3>
+                      <p class="small-muted mb-2">Rapid prototyping</p>
+                      <ul class="mb-0 small">
+                        <li>Custom holders, reactor components, and fixtures</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controlled Environment Chambers & Analytical Instruments -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">X</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/chambers.jpg" alt="Controlled Environment Chambers and Analytical Instruments" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Controlled Environment Chambers &amp; Analytical Instruments</h3>
+                      <p class="small-muted mb-2">TCD Environmental Engineering Lab</p>
+                      <ul class="mb-0 small">
+                        <li>Ambient-condition wastewater-focused bioelectrochemical research</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Computational Resources -->
+        <div class="col-12">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="cap-icon">C</div>
+                <div class="w-100">
+                  <div class="card-split">
+                    <img src="images/infrastructure/computing.jpg" alt="Computational Resources" class="cap-image">
+                    <div>
+                      <h3 class="h6 fw-semibold mb-1">Computational Resources</h3>
+                      <p class="small-muted mb-2">Hardware and software for analysis, modelling, and simulation.</p>
+                      <ul class="mb-0 small">
+                        <li>High-performance workstations for data processing, electrochemical modelling, performance analysis</li>
+                        <li>Modelling software (e.g., COMSOL Multiphysics) to simulate fluid flow and gas transfer dynamics</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-white mt-4">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-8">
+          <div class="fw-semibold">Applied Environmental Microbiology and Biotechnology</div>
+          <div class="small text-white-50">Trinity College Dublin · Dublin, Ireland</div>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <div class="small text-white-50">© 2026 AEMB. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="js/popper-2.11.8.min.js"></script>
+  <script src="js/bootstrap-5.3.8.js"></script>
+</body>
+</html>
